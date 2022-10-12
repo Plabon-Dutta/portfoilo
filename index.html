@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plabon's Planet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8311d05b17.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="IMG/blogging.png" type="image/x-icon">
+</head>
+<body>
+<!-----------Home/Header Section---------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMG/logo2.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
+                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Competitive Programmer</p>
+                <h1>Hi, I'm Jayonto Dutta<br><span>Plabon</span></h1>
+            </div>
+        </div>
+    </div>
+<!-----------about Section---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hello There. Welcome to Plabon's Planet. Firstly, Thanks for visiting my portfoilo.
+                        I'm an undergrad student of CSE at UAP.
+                        Trying to develop programming skills day by day.
+                        Interested in Competitive programming and Robotics.
+                        I would love to take your feedback and try to improve myself and also talk with you about my uniqueness. Thank you!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('programming-contest')">Programming Contests</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>C++</b></span><br>Proficiency: Intermediate<br>Solved 700+ Problems with C++.</li>
+                            <li><span><b>C</b></span><br>Proficiency: Intermediate<br>Solved 500+ Problems with C.</li>
+                            <li><span><b>Python</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>Java</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>Html, CSS, Java Script</b></span><br>Proficiency: Beginner.</li>
+                            <li><span><b>My SQL</b></span><br>Proficiency: Beginner.</li>
+
+                    </div>
+                    <div class="tab-contents" id="programming-contest">
+                        <ul>
+                            <li><span><b>ICPC Asia Dhaka Regional Contest 2021</b></span><br>Team:UAP_Transformers<br>Rank:124th</li>
+                            <li><span><b>BUET Inter University Programming Contest</b></span><br>Team:UAP_Transformers<br>Rank:97th</li>
+                            <li><span><b>UAP Intra University Programming Contest Junior - 2022</b></span><br>Team:UAP_Trinity<br>Rank:1st</li>
+                            <li><span><b>UAP Intra University Programming Contest Junior - 2020</b></span><br>Team:UAP_Trinity<br>Rank:5th</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>BSC in CSE</b></span><br>University of Asia Pacific.<br>2020-Running</li>
+                            <li><span><b>HSC</b></span><br>Pangsha Govt. College.<br>2019</li>
+                            <li><span><b>SSC</b></span><br>Yeakub Ali Chowdhury Biddapith.<br>2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------experience Section---------->
+<div id="experiences">
+    <div class="container">
+        <h1 class="sub-title">My Experiences</h1>
+        <div class="experiences-list">
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Treasurer</h2>
+                <h3>Robotics Club, CSE-UAP</h3>
+                <p>2020-Present</p>
+                <a href="https://www.facebook.com/roboticsUAP.cse">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-life-ring"></i>
+                <h2>Volunteer</h2>
+                <h3>ICPC World Finals Dhaka</h3>
+                <p>2022</p>
+                <a href="https://icpc.global/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-life-ring"></i>
+                <h2>Volunteer</h2>
+                <h3>Ada Lovelacc Celebration 2022</h3>
+                <p>2022</p>
+                <a href="https://alc.bdosn.org/al-ngpc/">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Achievements---------->
+<div>
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="achievement-list">
+                <div class="project">
+                    <img src="IMG/icpc-reg-22.png" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>2021 ICPC Asia Dhaka Onsite Regional Contest</b></p>
+                        <br><p>Ranked 124th</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/icpc-pre-22.png" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>2021 ICPC Asia Dhaka Regional Online Preliminary Contest</b></p>
+                        <br><p>Ranked 360th</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/icpc-pre-21.png" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>2020 ICPC Asia Dhaka Regional Online Preliminary Contest</b></p>
+                        <br><p>Ranked 493th</p>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <img src="IMG/achi1.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>UAP CSE Intra-Departmental Programming Contest - 2020 (Junior)</b></p>
+                        <br><p>Ranked 5th</p>
+                        
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/HackerRank Problem Solving Basic.png" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>HackerRank Problem Solving(Basic) Certificate</b></p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Go Code Participation Certificate.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <p><b>Go Code Programming Contest</b></p>
+                        <br><p>Ranked 67th</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+<!-- -----------Project--------- -->
+<div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="IMG/project1.png" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>This one is my first project. In this project, we recreated the popular Tic Tac Toe game. But We added some additional options like saving game info, watching statistics, etc.</p>
+                        <a href="https://github.com/Plabon-Dutta/Tic-Tac-Toe-Game-using-C-Programming-Language"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Project3.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Banking Management System</h3>
+                        <p>This project is all about the Banking management system. A very simple and user-friendly interface with basic needed operations for the bank is present here. We implemented this with JAVA.</p>
+                        <a href="https://github.com/Plabon-Dutta/Banking-Management-System-using-Java"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Project4.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>This project is about Hospital Management Systems. Part of my Database Course. We implemented this project with MY SQL</p>
+                        <a href="https://github.com/Plabon-Dutta/Hospital-Management-System-using-SQL"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list">
+                <div class="project">
+                    <img src="IMG/Project2.jpg" height="400">
+                    <br>
+                    <div class="layer">
+                        <h3>University Portal</h3>
+                        <p>This project is about University Portal. Part of my Visual and Web Programming Course. We implemented this project with Html, CSS, JS, Python, Django.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Project5.png" height="400" width="325">
+                    <br>
+                    <div class="layer">
+                        <h3>Crowd Funding Platform using Blockchain</h3>
+                        <p>This project is about Crowd Funding. Part of my System Analysis and Design Course.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="IMG/Project6.jpg" height="400" width="325">
+                    <br>
+                    <div class="layer">
+                        <h3>Tailor Lagbe?</h3>
+                        <p>This project is about Online Tailoring. Part of Intra University Hackathon 2022.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+<!-- ---------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> plabondutta0@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +8801851316950</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jayonto-dutta-plabon-45b4651b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/plabon.dutta.98/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/DuttaJayonto"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/plabon.dutta/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Plabon. Take Love. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu1=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu1.style.right=0;
+        }
+        function closemenu(){
+            sidemenu1.style.right="-200px";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyeV71h1K7kKb_Wpp7fKddTKOiSiL_RxAf52b7NWUww3n1Hh2wsIeIdCx6TFXq6PrgP/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Sent Successfully."
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
